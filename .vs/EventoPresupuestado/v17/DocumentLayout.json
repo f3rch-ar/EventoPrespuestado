@@ -1,0 +1,365 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\repository\\comidarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:repository\\comidarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\service\\comidaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:service\\comidaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\controller\\comidacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:controller\\comidacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\view\\viewcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:view\\viewcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\view\\viewcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:view\\viewcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\model\\tipomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:model\\tipomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\model\\servicioadicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:model\\servicioadicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\model\\presupuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:model\\presupuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\model\\lugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:model\\lugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\model\\itemmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:model\\itemmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|c:\\users\\notebook11\\desktop\\projects\\eventopresupuestado\\model\\comida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:model\\comida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\dto\\comidadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:dto\\comidadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\view\\viewarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:view\\viewarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\model\\enum\\enumtipocom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:model\\enum\\enumtipocom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\eventopresupuestado.slnx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:eventopresupuestado.slnx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\util\\validationviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:util\\validationviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\util\\messageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:util\\messageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\util\\exceptiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6685FF2-4A2E-4EA8-87D4-59DE1E926BB8}|EventoPresupuestado.csproj|solutionrelative:util\\exceptiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewComida.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\View\\ViewComida.cs",
+              "RelativeDocumentMoniker": "View\\ViewComida.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\View\\ViewComida.cs [Dise\u00F1o]",
+              "RelativeToolTip": "View\\ViewComida.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:15:04.473Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewComida.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\View\\ViewComida.cs",
+              "RelativeDocumentMoniker": "View\\ViewComida.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\View\\ViewComida.cs",
+              "RelativeToolTip": "View\\ViewComida.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAqwC0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:05:54.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ItemMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Model\\ItemMenu.cs",
+              "RelativeDocumentMoniker": "Model\\ItemMenu.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Model\\ItemMenu.cs",
+              "RelativeToolTip": "Model\\ItemMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T00:35:13.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Lugar.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Model\\Lugar.cs",
+              "RelativeDocumentMoniker": "Model\\Lugar.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Model\\Lugar.cs",
+              "RelativeToolTip": "Model\\Lugar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T00:35:14.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Comida.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Model\\Comida.cs",
+              "RelativeDocumentMoniker": "Model\\Comida.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Model\\Comida.cs",
+              "RelativeToolTip": "Model\\Comida.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T00:13:42.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ComidaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Dto\\ComidaDto.cs",
+              "RelativeDocumentMoniker": "Dto\\ComidaDto.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Dto\\ComidaDto.cs",
+              "RelativeToolTip": "Dto\\ComidaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T00:13:22.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComidaController.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Controller\\ComidaController.cs",
+              "RelativeDocumentMoniker": "Controller\\ComidaController.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Controller\\ComidaController.cs",
+              "RelativeToolTip": "Controller\\ComidaController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T00:26:03.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ComidaService.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Service\\ComidaService.cs",
+              "RelativeDocumentMoniker": "Service\\ComidaService.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Service\\ComidaService.cs",
+              "RelativeToolTip": "Service\\ComidaService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T00:30:55.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Presupuesto.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Model\\Presupuesto.cs",
+              "RelativeDocumentMoniker": "Model\\Presupuesto.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Model\\Presupuesto.cs",
+              "RelativeToolTip": "Model\\Presupuesto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T00:35:14.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppMain.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\AppMain.cs",
+              "RelativeDocumentMoniker": "AppMain.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\AppMain.cs",
+              "RelativeToolTip": "AppMain.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAAASwNQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T23:43:11.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppMain.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\AppMain.cs",
+              "RelativeDocumentMoniker": "AppMain.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Desktop\\EventoPresupuestado\\AppMain.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\notebook10\\Desktop\\EventoPresupuestado\\AppMain.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T23:46:28.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewArticle.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\View\\ViewArticle.cs",
+              "RelativeDocumentMoniker": "View\\ViewArticle.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\View\\ViewArticle.cs",
+              "RelativeToolTip": "View\\ViewArticle.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:22:50.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComidaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Repository\\ComidaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ComidaRepository.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Repository\\ComidaRepository.cs",
+              "RelativeToolTip": "Repository\\ComidaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T21:55:08.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TipoMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Model\\TipoMenu.cs",
+              "RelativeDocumentMoniker": "Model\\TipoMenu.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Model\\TipoMenu.cs",
+              "RelativeToolTip": "Model\\TipoMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T00:35:15.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServicioAdicional.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Model\\ServicioAdicional.cs",
+              "RelativeDocumentMoniker": "Model\\ServicioAdicional.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Model\\ServicioAdicional.cs",
+              "RelativeToolTip": "Model\\ServicioAdicional.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T00:35:16.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EnumTipoCom.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Model\\Enum\\EnumTipoCom.cs",
+              "RelativeDocumentMoniker": "Model\\Enum\\EnumTipoCom.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Model\\Enum\\EnumTipoCom.cs",
+              "RelativeToolTip": "Model\\Enum\\EnumTipoCom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T00:20:09.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EventoPresupuestado.slnx",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\EventoPresupuestado.slnx",
+              "RelativeDocumentMoniker": "EventoPresupuestado.slnx",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\EventoPresupuestado.slnx",
+              "RelativeToolTip": "EventoPresupuestado.slnx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-08T00:52:57.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ValidationViews.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Util\\ValidationViews.cs",
+              "RelativeDocumentMoniker": "Util\\ValidationViews.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Util\\ValidationViews.cs",
+              "RelativeToolTip": "Util\\ValidationViews.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T00:24:28.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MessageUser.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Util\\MessageUser.cs",
+              "RelativeDocumentMoniker": "Util\\MessageUser.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Util\\MessageUser.cs",
+              "RelativeToolTip": "Util\\MessageUser.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T00:24:15.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ExceptionTest.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Util\\ExceptionTest.cs",
+              "RelativeDocumentMoniker": "Util\\ExceptionTest.cs",
+              "ToolTip": "C:\\Users\\Notebook11\\Desktop\\Projects\\EventoPresupuestado\\Util\\ExceptionTest.cs",
+              "RelativeToolTip": "Util\\ExceptionTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T00:24:04.845Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

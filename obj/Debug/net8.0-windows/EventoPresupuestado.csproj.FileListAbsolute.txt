@@ -1,0 +1,110 @@
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.csproj.GenerateResource.cache
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AssemblyInfoInputs.cache
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AssemblyInfo.cs
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.csproj.CoreCompileInputs.cache
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AppMain.resources
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.LineShadow.resources
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewHome.resources
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.exe
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.deps.json
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.runtimeconfig.json
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.dll
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.pdb
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.dll
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\refint\EventoPresupuestado.dll
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.pdb
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.genruntimeconfig.cache
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\ref\EventoPresupuestado.dll
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\Restaurante_Menus.Properties.Resources.resources
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.exe
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.deps.json
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.runtimeconfig.json
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.dll
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.pdb
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AppMain.resources
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.LineShadow.resources
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\Restaurante_Menus.Properties.Resources.resources
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewArticle.resources
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewCategoria.resources
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewHome.resources
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.csproj.GenerateResource.cache
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AssemblyInfoInputs.cache
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AssemblyInfo.cs
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.csproj.CoreCompileInputs.cache
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.dll
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\refint\EventoPresupuestado.dll
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.pdb
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.genruntimeconfig.cache
+C:\Users\13\Desktop\EventoPresupuestado\EventoPresupuestado\obj\Debug\net8.0-windows\ref\EventoPresupuestado.dll
+C:\Users\notebook10\Desktop\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.exe
+C:\Users\notebook10\Desktop\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.deps.json
+C:\Users\notebook10\Desktop\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.runtimeconfig.json
+C:\Users\notebook10\Desktop\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.dll
+C:\Users\notebook10\Desktop\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.pdb
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AppMain.resources
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.LineShadow.resources
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\Restaurante_Menus.Properties.Resources.resources
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewArticle.resources
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewHome.resources
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.csproj.GenerateResource.cache
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AssemblyInfoInputs.cache
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AssemblyInfo.cs
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.csproj.CoreCompileInputs.cache
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.dll
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\refint\EventoPresupuestado.dll
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.pdb
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.genruntimeconfig.cache
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\ref\EventoPresupuestado.dll
+C:\Users\notebook10\Desktop\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewComida.resources
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AppMain.resources
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.LineShadow.resources
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\Restaurante_Menus.Properties.Resources.resources
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewArticle.resources
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewComida.resources
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewHome.resources
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.csproj.GenerateResource.cache
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AssemblyInfoInputs.cache
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AssemblyInfo.cs
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.csproj.CoreCompileInputs.cache
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.dll
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\refint\EventoPresupuestado.dll
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.pdb
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.exe
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.deps.json
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.runtimeconfig.json
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.dll
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.pdb
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.genruntimeconfig.cache
+C:\Users\Notebook11\Desktop\Projects\EventoPresupuestado\obj\Debug\net8.0-windows\ref\EventoPresupuestado.dll
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.exe
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.deps.json
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.runtimeconfig.json
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.dll
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\bin\Debug\net8.0-windows\EventoPresupuestado.pdb
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AppMain.resources
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.LineShadow.resources
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\Restaurante_Menus.Properties.Resources.resources
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewComida.resources
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewHome.resources
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.csproj.GenerateResource.cache
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AssemblyInfoInputs.cache
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.AssemblyInfo.cs
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.csproj.CoreCompileInputs.cache
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.dll
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\refint\EventoPresupuestado.dll
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.pdb
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.genruntimeconfig.cache
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\ref\EventoPresupuestado.dll
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewComida.resources
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPr.C7B3BF52.Up2Date
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewLugar.resources
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewConfig.resources
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewLugar.resources
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.View.ViewConfig.resources
+C:\Users\notebook10\Documents\Github\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.Componentes.LugarCardControl.resources
+D:\Projects\Programacion\Visual Studio\EventoPresupuestado\obj\Debug\net8.0-windows\EventoPresupuestado.Componentes.LugarCardControl.resources
