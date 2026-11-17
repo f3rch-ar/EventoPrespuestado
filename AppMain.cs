@@ -212,7 +212,7 @@ namespace EventoPresupuestado
 
         private void btnPresupuesto_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnInicio_Click(object sender, EventArgs e)
@@ -222,7 +222,7 @@ namespace EventoPresupuestado
 
         private void btnTipoMenu_Click(object sender, EventArgs e)
         {
-            //openViewHijo(new ViewTipoMenu());
+            openViewHijo(new ViewTipoMenu());
         }
 
         private void btnComida_Click(object sender, EventArgs e)
@@ -238,6 +238,11 @@ namespace EventoPresupuestado
         private void btnConfig_Click(object sender, EventArgs e)
         {
             openViewHijo(new ViewConfig());
+        }
+
+        private void btnServAdicional_Click(object sender, EventArgs e)
+        {
+            openViewHijo(new ViewServicio());
         }
     }
 }

@@ -7,24 +7,120 @@
       "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\lugarcardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\view\\viewlugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewlugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\componentes\\basecardscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\basecardscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\view\\viewlugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewlugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\componentes\\tipomenucardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\tipomenucardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\service\\lugarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:service\\lugarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\componentes\\tipomenucardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\tipomenucardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\service\\comidaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:service\\comidaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\componentes\\paneltotalrounded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\paneltotalrounded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\controller\\lugarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:controller\\lugarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\componentes\\lineshadow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\lineshadow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\componentes\\lugarcardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\lugarcardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\componentes\\servicioitemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\servicioitemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\componentes\\servicioitemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\servicioitemcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\controller\\tipomenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:controller\\tipomenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\dto\\tipomenudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:dto\\tipomenudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\dto\\basedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:dto\\basedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\dto\\comidadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:dto\\comidadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\dto\\lugardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:dto\\lugardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\dto\\servicioadicionaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:dto\\servicioadicionaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\dto\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:dto\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\view\\viewtipomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewtipomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\view\\viewtipomenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewtipomenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\view\\viewservicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewservicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\view\\viewtipomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewtipomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\model\\tipomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:model\\tipomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\model\\itemmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:model\\itemmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\rolcontrol\\helpers\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:rolcontrol\\helpers\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\service\\tipomenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:service\\tipomenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\controller\\servicioadicionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:controller\\servicioadicionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\model\\comida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:model\\comida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\service\\servicioadicionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:service\\servicioadicionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\repository\\tipomenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:repository\\tipomenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\repository\\servicioadicionalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:repository\\servicioadicionalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\repository\\lugarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,64 +131,44 @@
       "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:repository\\comidarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\service\\comidaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:service\\comidaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\model\\lugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:model\\lugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\controller\\lugarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:controller\\lugarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\model\\comida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:model\\comida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\service\\lugarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:service\\lugarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\controller\\comidacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:controller\\comidacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\view\\viewlugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewlugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\view\\viewservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\view\\viewcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\util\\messageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:util\\messageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\view\\viewservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\dto\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:dto\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\componentes\\lugarcardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\lugarcardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\dto\\lugardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:dto\\lugardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\componentes\\lugarcardcontrol.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\lugarcardcontrol.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\view\\viewconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\view\\viewcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\view\\viewhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\dto\\comidadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:dto\\comidadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|c:\\users\\notebook10\\documents\\github\\eventopresupuestado\\model\\enums\\enumtipocom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:model\\enums\\enumtipocom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,7 +178,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,119 +198,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\BaseRepository.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\BaseRepository.cs",
-              "RelativeToolTip": "Repository\\BaseRepository.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAiwFsAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TipoMenuCardControl.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\TipoMenuCardControl.cs",
+              "RelativeDocumentMoniker": "Componentes\\TipoMenuCardControl.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\TipoMenuCardControl.cs",
+              "RelativeToolTip": "Componentes\\TipoMenuCardControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T22:35:07.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LugarService.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Service\\LugarService.cs",
-              "RelativeDocumentMoniker": "Service\\LugarService.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Service\\LugarService.cs",
-              "RelativeToolTip": "Service\\LugarService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T22:29:08.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ComidaService.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Service\\ComidaService.cs",
-              "RelativeDocumentMoniker": "Service\\ComidaService.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Service\\ComidaService.cs",
-              "RelativeToolTip": "Service\\ComidaService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAswDYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T22:28:06.365Z",
+              "WhenOpened": "2026-11-06T22:57:39.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LugarController.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Controller\\LugarController.cs",
-              "RelativeDocumentMoniker": "Controller\\LugarController.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Controller\\LugarController.cs",
-              "RelativeToolTip": "Controller\\LugarController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Title": "LineShadow.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\LineShadow.cs",
+              "RelativeDocumentMoniker": "Componentes\\LineShadow.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\LineShadow.cs",
+              "RelativeToolTip": "Componentes\\LineShadow.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAmwFUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T22:27:28.154Z",
+              "WhenOpened": "2026-11-06T22:48:15.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Comida.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Model\\Comida.cs",
-              "RelativeDocumentMoniker": "Model\\Comida.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Model\\Comida.cs",
-              "RelativeToolTip": "Model\\Comida.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwEoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "PanelTotalRounded.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\PanelTotalRounded.cs",
+              "RelativeDocumentMoniker": "Componentes\\PanelTotalRounded.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\PanelTotalRounded.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Componentes\\PanelTotalRounded.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T21:48:25.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-06T22:45:21.989Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Lugar.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Model\\Lugar.cs",
-              "RelativeDocumentMoniker": "Model\\Lugar.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Model\\Lugar.cs",
-              "RelativeToolTip": "Model\\Lugar.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB4AAABkAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TipoMenuCardControl.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\TipoMenuCardControl.cs",
+              "RelativeDocumentMoniker": "Componentes\\TipoMenuCardControl.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\TipoMenuCardControl.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Componentes\\TipoMenuCardControl.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T21:54:55.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ComidaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\ComidaRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ComidaRepository.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\ComidaRepository.cs",
-              "RelativeToolTip": "Repository\\ComidaRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T22:11:14.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ViewLugar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewLugar.cs",
-              "RelativeDocumentMoniker": "View\\ViewLugar.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewLugar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "View\\ViewLugar.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T22:25:05.401Z",
+              "WhenOpened": "2026-11-06T22:16:37.886Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ViewLugar.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewLugar.cs",
-              "RelativeDocumentMoniker": "View\\ViewLugar.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewLugar.cs",
-              "RelativeToolTip": "View\\ViewLugar.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAA9wDoAAAArAAAAAAAAAA==",
+              "Title": "BaseCardsControl.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\BaseCardsControl.cs",
+              "RelativeDocumentMoniker": "Componentes\\BaseCardsControl.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\BaseCardsControl.cs",
+              "RelativeToolTip": "Componentes\\BaseCardsControl.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAiwJoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T21:39:04.365Z",
+              "WhenOpened": "2026-11-06T22:07:59.436Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LugarCardControl.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\LugarCardControl.cs",
+              "RelativeDocumentMoniker": "Componentes\\LugarCardControl.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\LugarCardControl.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Componentes\\LugarCardControl.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T21:58:05.152Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -244,116 +279,425 @@
               "RelativeDocumentMoniker": "Componentes\\LugarCardControl.cs",
               "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\LugarCardControl.cs",
               "RelativeToolTip": "Componentes\\LugarCardControl.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAUwHwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAzwIwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T21:32:40.203Z",
+              "WhenOpened": "2026-11-06T00:33:19.754Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LugarRepository.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\LugarRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\LugarRepository.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\LugarRepository.cs",
-              "RelativeToolTip": "Repository\\LugarRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T22:36:56.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ComidaController.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Controller\\ComidaController.cs",
-              "RelativeDocumentMoniker": "Controller\\ComidaController.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Controller\\ComidaController.cs",
-              "RelativeToolTip": "Controller\\ComidaController.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAuwHQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T22:07:18.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ViewComida.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewComida.cs",
-              "RelativeDocumentMoniker": "View\\ViewComida.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewComida.cs",
-              "RelativeToolTip": "View\\ViewComida.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAuwIoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T21:45:54.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LugarCardControl.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\LugarCardControl.cs",
-              "RelativeDocumentMoniker": "Componentes\\LugarCardControl.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\LugarCardControl.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Componentes\\LugarCardControl.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T21:35:33.214Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ResultDto.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\ResultDto.cs",
-              "RelativeDocumentMoniker": "Dto\\ResultDto.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\ResultDto.cs",
-              "RelativeToolTip": "Dto\\ResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
+              "Title": "ServicioAdicionalDto.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\ServicioAdicionalDto.cs",
+              "RelativeDocumentMoniker": "Dto\\ServicioAdicionalDto.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\ServicioAdicionalDto.cs",
+              "RelativeToolTip": "Dto\\ServicioAdicionalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T23:46:22.167Z",
+              "WhenOpened": "2026-11-04T22:53:57.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseDto.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\BaseDto.cs",
+              "RelativeDocumentMoniker": "Dto\\BaseDto.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\BaseDto.cs",
+              "RelativeToolTip": "Dto\\BaseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T00:52:41.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MessageUser.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Util\\MessageUser.cs",
-              "RelativeDocumentMoniker": "Util\\MessageUser.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Util\\MessageUser.cs",
-              "RelativeToolTip": "Util\\MessageUser.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAsAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ServicioItemControl.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\ServicioItemControl.cs",
+              "RelativeDocumentMoniker": "Componentes\\ServicioItemControl.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\ServicioItemControl.cs",
+              "RelativeToolTip": "Componentes\\ServicioItemControl.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T22:44:36.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LugarDto.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\LugarDto.cs",
-              "RelativeDocumentMoniker": "Dto\\LugarDto.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\LugarDto.cs",
-              "RelativeToolTip": "Dto\\LugarDto.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wB8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T21:57:43.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LugarCardControl.resx",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\LugarCardControl.resx",
-              "RelativeDocumentMoniker": "Componentes\\LugarCardControl.resx",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\LugarCardControl.resx",
-              "RelativeToolTip": "Componentes\\LugarCardControl.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-10-21T21:37:04.259Z",
+              "WhenOpened": "2026-10-28T22:55:22.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\BaseRepository.cs",
+              "RelativeToolTip": "Repository\\BaseRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T23:52:24.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServicioItemControl.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\ServicioItemControl.cs",
+              "RelativeDocumentMoniker": "Componentes\\ServicioItemControl.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Componentes\\ServicioItemControl.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Componentes\\ServicioItemControl.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T22:50:53.748Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ViewTipoMenu.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewTipoMenu.cs",
+              "RelativeDocumentMoniker": "View\\ViewTipoMenu.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewTipoMenu.cs",
+              "RelativeToolTip": "View\\ViewTipoMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T00:08:50.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ViewServicio.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewServicio.Designer.cs",
+              "RelativeDocumentMoniker": "View\\ViewServicio.Designer.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewServicio.Designer.cs",
+              "RelativeToolTip": "View\\ViewServicio.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T00:09:23.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TipoMenuDto.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\TipoMenuDto.cs",
+              "RelativeDocumentMoniker": "Dto\\TipoMenuDto.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\TipoMenuDto.cs",
+              "RelativeToolTip": "Dto\\TipoMenuDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T22:55:12.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TipoMenuController.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Controller\\TipoMenuController.cs",
+              "RelativeDocumentMoniker": "Controller\\TipoMenuController.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Controller\\TipoMenuController.cs",
+              "RelativeToolTip": "Controller\\TipoMenuController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwEUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T22:59:09.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ComidaDto.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\ComidaDto.cs",
+              "RelativeDocumentMoniker": "Dto\\ComidaDto.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\ComidaDto.cs",
+              "RelativeToolTip": "Dto\\ComidaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T00:47:08.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LugarDto.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\LugarDto.cs",
+              "RelativeDocumentMoniker": "Dto\\LugarDto.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\LugarDto.cs",
+              "RelativeToolTip": "Dto\\LugarDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T00:47:10.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\ResultDto.cs",
+              "RelativeDocumentMoniker": "Dto\\ResultDto.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\ResultDto.cs",
+              "RelativeToolTip": "Dto\\ResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T00:47:16.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ViewTipoMenu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewTipoMenu.Designer.cs",
+              "RelativeDocumentMoniker": "View\\ViewTipoMenu.Designer.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewTipoMenu.Designer.cs",
+              "RelativeToolTip": "View\\ViewTipoMenu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T00:09:31.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ViewTipoMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewTipoMenu.cs",
+              "RelativeDocumentMoniker": "View\\ViewTipoMenu.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewTipoMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "View\\ViewTipoMenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T00:09:43.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SesionActual.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\RolControl\\helpers\\SesionActual.cs",
+              "RelativeDocumentMoniker": "RolControl\\helpers\\SesionActual.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\RolControl\\helpers\\SesionActual.cs",
+              "RelativeToolTip": "RolControl\\helpers\\SesionActual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T23:00:58.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ItemMenu.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Model\\ItemMenu.cs",
+              "RelativeDocumentMoniker": "Model\\ItemMenu.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Model\\ItemMenu.cs",
+              "RelativeToolTip": "Model\\ItemMenu.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T23:02:09.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Comida.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Model\\Comida.cs",
+              "RelativeDocumentMoniker": "Model\\Comida.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Model\\Comida.cs",
+              "RelativeToolTip": "Model\\Comida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T22:52:27.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TipoMenuService.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Service\\TipoMenuService.cs",
+              "RelativeDocumentMoniker": "Service\\TipoMenuService.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Service\\TipoMenuService.cs",
+              "RelativeToolTip": "Service\\TipoMenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T22:43:58.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ComidaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\ComidaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ComidaRepository.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\ComidaRepository.cs",
+              "RelativeToolTip": "Repository\\ComidaRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T22:42:41.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TipoMenuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\TipoMenuRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\TipoMenuRepository.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\TipoMenuRepository.cs",
+              "RelativeToolTip": "Repository\\TipoMenuRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T22:42:04.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TipoMenu.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Model\\TipoMenu.cs",
+              "RelativeDocumentMoniker": "Model\\TipoMenu.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Model\\TipoMenu.cs",
+              "RelativeToolTip": "Model\\TipoMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T21:47:35.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ServicioAdicionalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\ServicioAdicionalRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ServicioAdicionalRepository.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\ServicioAdicionalRepository.cs",
+              "RelativeToolTip": "Repository\\ServicioAdicionalRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T22:37:48.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LugarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\LugarRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\LugarRepository.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Repository\\LugarRepository.cs",
+              "RelativeToolTip": "Repository\\LugarRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T22:37:47.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ServicioAdicionalController.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Controller\\ServicioAdicionalController.cs",
+              "RelativeDocumentMoniker": "Controller\\ServicioAdicionalController.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Controller\\ServicioAdicionalController.cs",
+              "RelativeToolTip": "Controller\\ServicioAdicionalController.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAwHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T21:55:46.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ServicioAdicionalService.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Service\\ServicioAdicionalService.cs",
+              "RelativeDocumentMoniker": "Service\\ServicioAdicionalService.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Service\\ServicioAdicionalService.cs",
+              "RelativeToolTip": "Service\\ServicioAdicionalService.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAUwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T22:29:09.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ComidaService.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Service\\ComidaService.cs",
+              "RelativeDocumentMoniker": "Service\\ComidaService.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Service\\ComidaService.cs",
+              "RelativeToolTip": "Service\\ComidaService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAjwD0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T22:06:23.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LugarService.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Service\\LugarService.cs",
+              "RelativeDocumentMoniker": "Service\\LugarService.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Service\\LugarService.cs",
+              "RelativeToolTip": "Service\\LugarService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T22:17:06.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ViewLugar.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewLugar.cs",
+              "RelativeDocumentMoniker": "View\\ViewLugar.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewLugar.cs",
+              "RelativeToolTip": "View\\ViewLugar.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAADwv/QAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T22:01:16.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ViewComida.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewComida.cs",
+              "RelativeDocumentMoniker": "View\\ViewComida.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewComida.cs",
+              "RelativeToolTip": "View\\ViewComida.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAADwv8MAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T21:57:29.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LugarController.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Controller\\LugarController.cs",
+              "RelativeDocumentMoniker": "Controller\\LugarController.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Controller\\LugarController.cs",
+              "RelativeToolTip": "Controller\\LugarController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T21:53:00.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ViewServicio.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewServicio.cs",
+              "RelativeDocumentMoniker": "View\\ViewServicio.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewServicio.cs",
+              "RelativeToolTip": "View\\ViewServicio.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAkwIQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T21:42:28.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ViewServicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewServicio.cs",
+              "RelativeDocumentMoniker": "View\\ViewServicio.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewServicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "View\\ViewServicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T22:12:26.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AppMain.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\AppMain.cs",
+              "RelativeDocumentMoniker": "AppMain.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\AppMain.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AppMain.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T22:17:13.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AppMain.cs",
+              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\AppMain.cs",
+              "RelativeDocumentMoniker": "AppMain.cs",
+              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\AppMain.cs",
+              "RelativeToolTip": "AppMain.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAnwPQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T22:17:02.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "ViewHome.cs",
               "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewHome.cs",
               "RelativeDocumentMoniker": "View\\ViewHome.cs",
@@ -362,53 +706,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-13T22:10:44.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ViewConfig.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewConfig.cs",
-              "RelativeDocumentMoniker": "View\\ViewConfig.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewConfig.cs [Dise\u00F1o]",
-              "RelativeToolTip": "View\\ViewConfig.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-13T22:10:34.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ViewComida.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewComida.cs",
-              "RelativeDocumentMoniker": "View\\ViewComida.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\View\\ViewComida.cs [Dise\u00F1o]",
-              "RelativeToolTip": "View\\ViewComida.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-18T22:57:12.667Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ComidaDto.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\ComidaDto.cs",
-              "RelativeDocumentMoniker": "Dto\\ComidaDto.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Dto\\ComidaDto.cs",
-              "RelativeToolTip": "Dto\\ComidaDto.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T21:58:24.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "EnumTipoCom.cs",
-              "DocumentMoniker": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Model\\Enums\\EnumTipoCom.cs",
-              "RelativeDocumentMoniker": "Model\\Enums\\EnumTipoCom.cs",
-              "ToolTip": "C:\\Users\\notebook10\\Documents\\Github\\EventoPresupuestado\\Model\\Enums\\EnumTipoCom.cs",
-              "RelativeToolTip": "Model\\Enums\\EnumTipoCom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T22:07:21.58Z"
             }
           ]
         }

@@ -6,62 +6,82 @@ using System.Threading.Tasks;
 
 namespace EventoPresupuestado.Model
 {
-    public class TipoMenu
+    public class TipoMenu : ModelBase
     {
-        private int idTipoMenu;
         private string nombreMenu;
         private decimal valorTipoMenu;
         private List<Comida> listComidas;
 
-// CONSTRUCTORES
+        // CONSTRUCTORES
+        public TipoMenu()
+        {
+            listComidas = new List<Comida>();
+            valorTipoMenu = 0;
+        }
 
-        public TipoMenu() { }
-
-        public TipoMenu(string nombreMenu)
+        public TipoMenu(string nombreMenu, List<Comida> listComidas)
         {
             NombreMenu = nombreMenu;
-        }
-
-// METODOS
-
-        public void AgregarComidas(Comida comida)
-        {
-            ListComidas.Add(comida);
-            CalcularValorTotalMenu();
-        }
-
-        public void DeleteComidas(Comida comida)
-        {
-            ListComidas.Remove(comida);
-            CalcularValorTotalMenu();
-        }
-
-        public decimal CalcularValorTotalMenu()
-        {
             ValorTipoMenu = 0;
+            ListComidas = listComidas ?? new List<Comida>();
+        }
 
+        public TipoMenu(int idMenu, string nombreMenu, List<Comida> listComidas, bool active)
+        {
+            Id = idMenu;
+            NombreMenu = nombreMenu;
+            ValorTipoMenu = 0;
+            ListComidas = listComidas ?? new List<Comida>();
+            Activo = active;
+        }
+
+        public TipoMenu(string nombreMenu, decimal valorTipoMenu, List<Comida> listComidas)
+        {
+            NombreMenu = nombreMenu;
+            ValorTipoMenu = valorTipoMenu;
+            ListComidas = listComidas ?? new List<Comida>();
+        }
+
+        public TipoMenu(int idTipoMenu, string nombreMenu, decimal valorTipoMenu, List<Comida> listComidas)
+        {
+            Id = idTipoMenu;
+            NombreMenu = nombreMenu;
+            ValorTipoMenu = valorTipoMenu;
+            ListComidas = listComidas ?? new List<Comida>();
+        }
+
+        //METODOS
+
+        public void CalcularTotalComidas()
+        {
+            decimal accum = 0;
             foreach (Comida comida in ListComidas)
             {
-                ValorTipoMenu = ValorTipoMenu + comida.ValorComida;
+                accum += comida.ValorComida;
             }
-
-            return valorTipoMenu;
+            ValorTipoMenu = accum;
         }
 
 
-// PROPIEDADES
+        // PROPIEDADES
         public string NombreMenu
         {
             get { return nombreMenu; }
             set
             {
-                //Verifica que no este vacio y que solo sea numero y letras
-                if(string.IsNullOrEmpty(value) && !value.All(char.IsLetterOrDigit))
+                if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new ArgumentException(nameof(value), "El nombre no debe estar vacio o contener un caracter especial");
+                    throw new ArgumentException("El nombre del menú no puede estar vacío.", nameof(value));
                 }
 
-                nombreMenu = value;
+                foreach (char caracter in value)
+                {
+                    if (!char.IsLetterOrDigit(caracter) && !char.IsWhiteSpace(caracter) && caracter != '-')
+                    {
+                        throw new ArgumentException("El nombre solo puede contener letras, números, espacios y guiones.", nameof(value));
+                    }
+                }
+                nombreMenu = value.Trim();
             }
         }
 
@@ -70,7 +90,7 @@ namespace EventoPresupuestado.Model
             get { return valorTipoMenu; }
             set
             {
-                if (value <= 0)
+                if (value < 0)
                 {
                     throw new ArgumentOutOfRangeException(nameof(value), "El valor no puede ser menor a cero");
                 }
@@ -82,7 +102,8 @@ namespace EventoPresupuestado.Model
         public List<Comida> ListComidas
         {
             get { return listComidas; }
-            
+            set { listComidas = value ?? new List<Comida>(); }
         }
     }
 }
+

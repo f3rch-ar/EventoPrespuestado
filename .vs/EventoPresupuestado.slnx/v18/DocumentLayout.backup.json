@@ -1,21 +1,121 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\",
+  "WorkspaceRootPath": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|d:\\projects\\programacion\\visual studio\\eventopresupuestado\\view\\viewconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\componentes\\presupuestocardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\presupuestocardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\componentes\\lugarcardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\lugarcardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\componentes\\basecardscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\basecardscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\model\\itemmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:model\\itemmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\model\\presupuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:model\\presupuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\service\\comidaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:service\\comidaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\view\\viewtipomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewtipomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\service\\tipomenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:service\\tipomenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\view\\viewcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\view\\viewlugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewlugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\util\\validationviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:util\\validationviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\componentes\\paneltotalrounded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\paneltotalrounded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\controller\\tipomenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:controller\\tipomenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\componentes\\tipomenucardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\tipomenucardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\componentes\\tipomenucardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:componentes\\tipomenucardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\view\\viewtipomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewtipomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\repository\\comidarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:repository\\comidarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\view\\viewconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\view\\viewconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|d:\\projects\\programacion\\visual studio\\eventopresupuestado\\rolcontrol\\adminmood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:rolcontrol\\adminmood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\rolcontrol\\adminmoodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:rolcontrol\\adminmoodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\view\\viewlugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|e:\\projects\\programacion\\visual studio\\eventopresupuestado\\rolcontrol\\helpers\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:rolcontrol\\helpers\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\view\\viewlugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewlugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\view\\viewcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\view\\viewhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\view\\viewcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4811264D-24E0-269C-76D8-3D730B75FC1A}|EventoPresupuestado.csproj|solutionrelative:view\\viewcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -26,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,37 +134,334 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ViewConfig.cs",
-              "DocumentMoniker": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewConfig.cs",
-              "RelativeDocumentMoniker": "View\\ViewConfig.cs",
-              "ToolTip": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewConfig.cs",
-              "RelativeToolTip": "View\\ViewConfig.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowH0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "LugarCardControl.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Componentes\\LugarCardControl.cs",
+              "RelativeDocumentMoniker": "Componentes\\LugarCardControl.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Componentes\\LugarCardControl.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Componentes\\LugarCardControl.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T02:36:33.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-16T16:20:52.866Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminMood.cs",
-              "DocumentMoniker": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\RolControl\\AdminMood.cs",
-              "RelativeDocumentMoniker": "RolControl\\AdminMood.cs",
-              "ToolTip": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\RolControl\\AdminMood.cs",
-              "RelativeToolTip": "RolControl\\AdminMood.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PresupuestoCardControl.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Componentes\\PresupuestoCardControl.cs",
+              "RelativeDocumentMoniker": "Componentes\\PresupuestoCardControl.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Componentes\\PresupuestoCardControl.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Componentes\\PresupuestoCardControl.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T02:36:00.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-16T16:17:38.481Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ViewLugar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewLugar.cs",
+              "Title": "BaseCardsControl.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Componentes\\BaseCardsControl.cs",
+              "RelativeDocumentMoniker": "Componentes\\BaseCardsControl.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Componentes\\BaseCardsControl.cs",
+              "RelativeToolTip": "Componentes\\BaseCardsControl.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAkwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T15:41:54.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ComidaService.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Service\\ComidaService.cs",
+              "RelativeDocumentMoniker": "Service\\ComidaService.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Service\\ComidaService.cs",
+              "RelativeToolTip": "Service\\ComidaService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T04:22:07.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewLugar.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewLugar.cs",
               "RelativeDocumentMoniker": "View\\ViewLugar.cs",
-              "ToolTip": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewLugar.cs [Dise\u00F1o]",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewLugar.cs",
+              "RelativeToolTip": "View\\ViewLugar.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAvwOMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T21:45:00.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Presupuesto.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Model\\Presupuesto.cs",
+              "RelativeDocumentMoniker": "Model\\Presupuesto.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Model\\Presupuesto.cs",
+              "RelativeToolTip": "Model\\Presupuesto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwH8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T15:53:40.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewTipoMenu.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewTipoMenu.cs",
+              "RelativeDocumentMoniker": "View\\ViewTipoMenu.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewTipoMenu.cs",
+              "RelativeToolTip": "View\\ViewTipoMenu.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAWwDEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T23:58:34.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemMenu.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Model\\ItemMenu.cs",
+              "RelativeDocumentMoniker": "Model\\ItemMenu.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Model\\ItemMenu.cs",
+              "RelativeToolTip": "Model\\ItemMenu.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAzwBAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T15:54:48.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Service\\BaseService.cs",
+              "RelativeDocumentMoniker": "Service\\BaseService.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Service\\BaseService.cs",
+              "RelativeToolTip": "Service\\BaseService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T18:10:40.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewComida.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewComida.cs",
+              "RelativeDocumentMoniker": "View\\ViewComida.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewComida.cs",
+              "RelativeToolTip": "View\\ViewComida.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAC8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T19:26:46.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TipoMenuService.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Service\\TipoMenuService.cs",
+              "RelativeDocumentMoniker": "Service\\TipoMenuService.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Service\\TipoMenuService.cs",
+              "RelativeToolTip": "Service\\TipoMenuService.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAWwFYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T18:35:18.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ValidationViews.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Util\\ValidationViews.cs",
+              "RelativeDocumentMoniker": "Util\\ValidationViews.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Util\\ValidationViews.cs",
+              "RelativeToolTip": "Util\\ValidationViews.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAuwFkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T19:30:38.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PanelTotalRounded.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Componentes\\PanelTotalRounded.cs",
+              "RelativeDocumentMoniker": "Componentes\\PanelTotalRounded.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Componentes\\PanelTotalRounded.cs",
+              "RelativeToolTip": "Componentes\\PanelTotalRounded.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAYwCMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T00:09:48.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TipoMenuController.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Controller\\TipoMenuController.cs",
+              "RelativeDocumentMoniker": "Controller\\TipoMenuController.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Controller\\TipoMenuController.cs",
+              "RelativeToolTip": "Controller\\TipoMenuController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T00:21:33.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TipoMenuCardControl.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Componentes\\TipoMenuCardControl.cs",
+              "RelativeDocumentMoniker": "Componentes\\TipoMenuCardControl.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Componentes\\TipoMenuCardControl.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Componentes\\TipoMenuCardControl.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T03:39:52.067Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TipoMenuCardControl.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Componentes\\TipoMenuCardControl.cs",
+              "RelativeDocumentMoniker": "Componentes\\TipoMenuCardControl.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Componentes\\TipoMenuCardControl.cs",
+              "RelativeToolTip": "Componentes\\TipoMenuCardControl.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T03:42:20.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ViewTipoMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewTipoMenu.cs",
+              "RelativeDocumentMoniker": "View\\ViewTipoMenu.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewTipoMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "View\\ViewTipoMenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T00:12:47.582Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Repository\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\BaseRepository.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Repository\\BaseRepository.cs",
+              "RelativeToolTip": "Repository\\BaseRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwD0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T19:23:52.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppMain.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\AppMain.cs",
+              "RelativeDocumentMoniker": "AppMain.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\AppMain.cs",
+              "RelativeToolTip": "AppMain.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvygAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T22:25:18.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppMain.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\AppMain.cs",
+              "RelativeDocumentMoniker": "AppMain.cs",
+              "ToolTip": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\AppMain.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T22:25:35.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Repository\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IRepository.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Repository\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAywBEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T19:26:22.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ComidaRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Repository\\ComidaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ComidaRepository.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\Repository\\ComidaRepository.cs",
+              "RelativeToolTip": "Repository\\ComidaRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T19:23:44.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SesionActual.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\RolControl\\helpers\\SesionActual.cs",
+              "RelativeDocumentMoniker": "RolControl\\helpers\\SesionActual.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\RolControl\\helpers\\SesionActual.cs",
+              "RelativeToolTip": "RolControl\\helpers\\SesionActual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T19:07:25.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminMoodController.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\RolControl\\AdminMoodController.cs",
+              "RelativeDocumentMoniker": "RolControl\\AdminMoodController.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\RolControl\\AdminMoodController.cs",
+              "RelativeToolTip": "RolControl\\AdminMoodController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAmwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T17:26:34.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ViewConfig.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewConfig.cs",
+              "RelativeDocumentMoniker": "View\\ViewConfig.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewConfig.cs",
+              "RelativeToolTip": "View\\ViewConfig.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwDYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T17:20:40.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ViewConfig.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewConfig.cs",
+              "RelativeDocumentMoniker": "View\\ViewConfig.cs",
+              "ToolTip": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewConfig.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T16:26:40.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ViewLugar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewLugar.cs",
+              "RelativeDocumentMoniker": "View\\ViewLugar.cs",
+              "ToolTip": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewLugar.cs [Dise\u00F1o]",
               "RelativeToolTip": "View\\ViewLugar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T22:00:26.466Z",
@@ -72,12 +469,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 27,
+              "Title": "ViewHome.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewHome.cs",
+              "RelativeDocumentMoniker": "View\\ViewHome.cs",
+              "ToolTip": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewHome.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T21:44:29.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "ViewComida.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewComida.cs",
+              "DocumentMoniker": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewComida.cs",
               "RelativeDocumentMoniker": "View\\ViewComida.cs",
               "ToolTip": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\View\\ViewComida.cs [Dise\u00F1o]",
-              "RelativeToolTip": "View\\ViewComida.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T21:44:27.909Z"
             }

@@ -20,22 +20,22 @@ namespace EventoPresupuestado.Repository
             {
                 return 1;
             }
-            return listElementos.Max(x => x.Id) + 1;
+            return listElementos.Max(element => element.Id) + 1;
         }
 
-        public virtual void Create(T entidad)
+        public virtual void Create(T element)
         {
             
-            if (entidad.Id == 0)
+            if (element.Id == 0)
             {
-                entidad.Id = GenerarNextId();
+                element.Id = GenerarNextId();
             }
-            listElementos.Add(entidad);
+            listElementos.Add(element);
         }
 
         public virtual List<T> GetAlls()
         {
-            return listElementos.Where(x => x.Activo).ToList();
+            return listElementos.Where(element => element.Activo).ToList();
         }
 
         public virtual List<T> GetAlls_NoActivos()
@@ -46,25 +46,27 @@ namespace EventoPresupuestado.Repository
 
         public virtual T GetID(int id)
         {
-            //return listElementos.FirstOrDefault(x => x.Id == id);
-            return listElementos.FirstOrDefault(x => x.Id == id && x.Activo);
+            //return listElementos.FirstOrDefault(element => element.Id == id);
+            return listElementos.FirstOrDefault(element => element.Id == id && element.Activo);
         }
 
         public virtual void Delete(int id)
         {
-            T elementoExistente = listElementos.FirstOrDefault(x => x.Id == id);
+            //T elementExistente = listElementos.FirstOrDefault(element => element.Id == id);
 
-            if (elementoExistente == null)
+            T elementExistente = GetID(id);
+
+            if (elementExistente == null)
             {
                 throw new KeyNotFoundException($"No se encontró el registro con el ID {id} para dar de baja.");
             }
 
-            elementoExistente.Activo = false;
+            elementExistente.Activo = false;
         }
 
         public virtual void DeletePermanent(int id)
         {
-            T elementoExistente = listElementos.FirstOrDefault(x => x.Id == id);
+            T elementoExistente = listElementos.FirstOrDefault(element => element.Id == id);
 
             if (elementoExistente == null)
             {
@@ -76,7 +78,7 @@ namespace EventoPresupuestado.Repository
 
         public virtual void Reactivar(int id)
         {
-            T elementoExistente = listElementos.FirstOrDefault(x => x.Id == id);
+            T elementoExistente = listElementos.FirstOrDefault(element => element.Id == id);
 
             if (elementoExistente == null)
             {

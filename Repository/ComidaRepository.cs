@@ -22,18 +22,20 @@ namespace EventoPresupuestado.Repository
             return instance;
         }
 
-        public override void Update(Comida comidaModificada)
+        public override void Update(Comida comidaModif)
         {
-            Comida comidaExistente = listElementos.FirstOrDefault(x => x.Id == comidaModificada.Id);
+            //Comida comidaExistente = listElementos.FirstOrDefault(comida => comida.Id == comidaModificada.Id);
+
+            Comida comidaExistente = GetID(comidaModif.Id);
 
             if (comidaExistente == null)
             {
-                throw new KeyNotFoundException($"No se encontró ninguna comida con el ID {comidaModificada.Id} para actualizar.");
+                throw new KeyNotFoundException($"No se encontró ninguna comida con el ID {comidaModif.Id} para actualizar.");
             }
 
-            comidaExistente.DescripcionComida = comidaModificada.DescripcionComida;
-            comidaExistente.TipoDeComida = comidaModificada.TipoDeComida;
-            comidaExistente.ValorComida = comidaModificada.ValorComida;
+            comidaExistente.DescripcionComida = comidaModif.DescripcionComida;
+            comidaExistente.TipoDeComida = comidaModif.TipoDeComida;
+            comidaExistente.ValorComida = comidaModif.ValorComida;
         }
     }
 }

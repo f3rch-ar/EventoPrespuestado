@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\EventoPresupuestado.csproj",
+      "projectUniqueName": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\EventoPresupuestado.csproj",
       "projectName": "EventoPresupuestado",
-      "projectPath": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\EventoPresupuestado.csproj",
+      "projectPath": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\EventoPresupuestado.csproj",
       "packagesPath": "C:\\Users\\refu\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\obj\\",
+      "outputPath": "E:\\Projects\\Programacion\\Visual Studio\\EventoPresupuestado\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

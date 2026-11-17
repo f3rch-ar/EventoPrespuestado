@@ -74,7 +74,8 @@ namespace EventoPresupuestado.View
                 if (_adminController.IsAdminActivo())
                 {
                     lblTypeUser.Text = "Modo Administrador";
-                    lblTypeUser.ForeColor = Color.FromArgb(46, 125, 50);
+                    Color verdeProfesional = Color.FromArgb(46, 125, 50);
+                    lblTypeUser.ForeColor = verdeProfesional;
                     chbShowInactivos.Enabled = true;
                     chbShowInactivos.Checked = SesionActual.ShowInactivos;
                 }

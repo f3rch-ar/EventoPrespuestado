@@ -51,7 +51,7 @@ namespace EventoPresupuestado.Model
             {
                 if (string.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentException(nameof(value), "La descripcion no debe estar vacia");
+                    throw new ArgumentException(nameof(value), "El nombre no debe estar vacia");
                 }
                 nombreLugar = value;
             }

@@ -7,29 +7,70 @@ using EventoPresupuestado.Model;
 
 namespace EventoPresupuestado.Model
 {
-    public class Presupuesto
+    public class Presupuesto : ModelBase
     {
-        private int idPresupuesto;
         private List<ServicioAdicional> listAdicional;
         private List<ItemMenu> listMenu;
         private DateTime fechaEvento;
         private Lugar lugarEvento;
         private int duracionEvento;
 
-// CONSTRUCTORES
+        // CONSTRUCTORES
+        public Presupuesto()
+        {
+            listAdicional = new List<ServicioAdicional>();
+            listMenu = new List<ItemMenu>();
+            fechaEvento = DateTime.Now;
+            duracionEvento = 1;
+            Activo = true;
+        }
 
-        public Presupuesto() { }
+        public Presupuesto(DateTime fechaEvento, int duracionEvento, Lugar lugarEvento, List<ServicioAdicional> listAdicional, List<ItemMenu> listMenu)
+        {
+            FechaEvento = fechaEvento;
+            DuracionEvento = duracionEvento;
+            LugarEvento = lugarEvento;
+            ListAdicional = listAdicional;
+            ListMenu = listMenu;
+            Activo = true;
+        }
 
-// METODOS
+        public Presupuesto(int idPresupuesto, DateTime fechaEvento, int duracionEvento, Lugar lugarEvento, List<ServicioAdicional> listAdicional, List<ItemMenu> listMenu)
+        {
+            Id = idPresupuesto;
+            FechaEvento = fechaEvento;
+            DuracionEvento = duracionEvento;
+            LugarEvento = lugarEvento;
+            ListAdicional = listAdicional;
+            ListMenu = listMenu;
+            Activo = true;
+        }
 
+        // METODOS
         public void AgregarServicioAdicional(ServicioAdicional servicio)
         {
+            if (servicio == null)
+            {
+                throw new ArgumentNullException(nameof(servicio), "El servicio adicional no puede ser nulo.");
+            }
             ListAdicional.Add(servicio);
         }
 
         public void QuitarServicioAdicional(ServicioAdicional servicio)
         {
-            ListAdicional.Remove(servicio);
+            if (servicio != null)
+            {
+                ListAdicional.Remove(servicio);
+            }
+        }
+
+        public void AgregarItemMenu(ItemMenu item)
+        {
+            if (item == null)
+            {
+                throw new ArgumentNullException(nameof(item), "El ítem de menú no puede ser nulo.");
+            }
+            ListMenu.Add(item);
         }
 
         public int CalcularCantidadAdultos()
@@ -38,9 +79,9 @@ namespace EventoPresupuestado.Model
 
             foreach (ItemMenu item in ListMenu)
             {
-                if (item.IsAdulto == true)
+                if (item.IsAdulto)
                 {
-                    totalAdultos = totalAdultos + item.Cantidad;
+                    totalAdultos += item.Cantidad;
                 }
             }
 
@@ -53,9 +94,9 @@ namespace EventoPresupuestado.Model
 
             foreach (ItemMenu item in ListMenu)
             {
-                if (item.IsAdulto == false)
+                if (!item.IsAdulto)
                 {
-                    totalNinios = totalNinios + item.Cantidad;
+                    totalNinios += item.Cantidad;
                 }
             }
 
@@ -69,91 +110,100 @@ namespace EventoPresupuestado.Model
 
         public decimal CalcularTotal()
         {
-            // Calcula el total de los menus
             decimal totalMenus = 0;
             foreach (ItemMenu item in ListMenu)
             {
-                totalMenus = totalMenus + item.CalcularSubtotal();
+                totalMenus += item.CalcularSubtotal();
             }
 
-            // Calcula el total de los servicios adicionales
             decimal totalServicios = 0;
             foreach (ServicioAdicional servicio in ListAdicional)
             {
-                totalServicios = totalServicios + servicio.ValorServicio;
+                totalServicios += servicio.ValorServicio;
             }
 
-            // Calcula el costo del lugar verificando si existe
             decimal totalLugar = 0;
             if (LugarEvento != null)
             {
                 totalLugar = LugarEvento.PrecioBase;
             }
-            else
-            {
-                totalLugar = 0;
-            }
 
             return totalMenus + totalServicios + totalLugar;
         }
 
-
-// PROPIEDADES
-
-        public List<ServicioAdicional> ListAdicional
+        // PROPIEDADES
+        public DateTime FechaEvento
         {
-            get
-            {
-                return listAdicional;
-            }
+            get { return fechaEvento; }
             set
             {
-                if (value == null)
+                if (value < DateTime.Now.Date)
                 {
-                    throw new ArgumentNullException(nameof(value), "La lista de servicios adicionales no puede ser nula.");
+                    throw new ArgumentException("La fecha del evento no puede ser anterior a la fecha actual.", nameof(value));
                 }
-
-                listAdicional = value;
+                fechaEvento = value;
             }
         }
 
-        public List<ItemMenu> ListMenu
+        public int DuracionEvento
         {
-            get
-            {
-                return listMenu;
-            }
+            get { return duracionEvento; }
             set
             {
-                if (value == null)
+                if (value <= 0)
                 {
-                    throw new ArgumentNullException(nameof(value), "La lista de ítems de menú no puede ser nula.");
+                    throw new ArgumentOutOfRangeException(nameof(value), "La duración del evento debe ser mayor a cero horas.");
                 }
-                listMenu = value;
+                duracionEvento = value;
             }
         }
 
         public Lugar LugarEvento
         {
-            get
-            {
-                return lugarEvento;
-            }
+            get { return lugarEvento; }
             set
             {
                 if (value == null)
                 {
-                    throw new ArgumentNullException("El lugar asignado no puede ser nulo.");
+                    throw new ArgumentNullException(nameof(value), "El lugar asignado no puede estar vacio.");
                 }
 
-                // Valida la capacidad maxima si ya hay invitados cargados en el presupuesto
                 int cantidadInvitadosActuales = CalcularInvitados();
                 if (cantidadInvitadosActuales > value.CantMaxPersonas)
                 {
-                    throw new InvalidOperationException($"El lugar '{value.DescripcionLugar}' solo permite hasta {value.CantMaxPersonas} personas, pero el presupuesto actual tiene {cantidadInvitadosActuales} invitados.");
+                    throw new InvalidOperationException($"El lugar '{value.DescripcionLugar}' solo permite hasta {value.CantMaxPersonas} personas, pero el presupuesto actual cuenta con {cantidadInvitadosActuales} invitados.");
                 }
 
                 lugarEvento = value;
+            }
+        }
+
+        public List<ServicioAdicional> ListAdicional
+        {
+            get { return listAdicional; }
+            set
+            {
+                if (value == null)
+                {
+                    listAdicional = new List<ServicioAdicional>();
+                }
+                else
+                {
+                    listAdicional = value;
+                }
+            }
+        }
+
+        public List<ItemMenu> ListMenu
+        {
+            get { return listMenu; }
+            set
+            {
+                if (value == null)
+                {
+                    throw new ArgumentNullException(nameof(value), "La lista de ítems de menú no puede estar vacia.");
+                }
+                listMenu = value;
             }
         }
     }

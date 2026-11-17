@@ -4,10 +4,25 @@
     <Compile Update="AppMain.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Componentes\BaseCardsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Componentes\LineShadow.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Componentes\LugarCardControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Componentes\PanelTotalRounded.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Componentes\PresupuestoCardControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Componentes\ServicioItemControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Componentes\TipoMenuCardControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="View\ViewComida.cs">

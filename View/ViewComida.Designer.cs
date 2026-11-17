@@ -150,7 +150,7 @@
             // 
             // txtComidaDescripcion
             // 
-            txtComidaDescripcion.Location = new Point(14, 112);
+            txtComidaDescripcion.Location = new Point(14, 89);
             txtComidaDescripcion.Margin = new Padding(3, 2, 3, 2);
             txtComidaDescripcion.Multiline = true;
             txtComidaDescripcion.Name = "txtComidaDescripcion";
@@ -161,7 +161,7 @@
             // lblDescripcionComida
             // 
             lblDescripcionComida.AutoSize = true;
-            lblDescripcionComida.Location = new Point(14, 95);
+            lblDescripcionComida.Location = new Point(14, 72);
             lblDescripcionComida.Name = "lblDescripcionComida";
             lblDescripcionComida.Size = new Size(117, 15);
             lblDescripcionComida.TabIndex = 10;
@@ -169,7 +169,7 @@
             // 
             // txtComidaValor
             // 
-            txtComidaValor.Location = new Point(14, 295);
+            txtComidaValor.Location = new Point(14, 254);
             txtComidaValor.Margin = new Padding(3, 2, 3, 2);
             txtComidaValor.Name = "txtComidaValor";
             txtComidaValor.Size = new Size(157, 23);
@@ -178,7 +178,7 @@
             // lblComidaValor
             // 
             lblComidaValor.AutoSize = true;
-            lblComidaValor.Location = new Point(14, 278);
+            lblComidaValor.Location = new Point(14, 237);
             lblComidaValor.Name = "lblComidaValor";
             lblComidaValor.Size = new Size(81, 15);
             lblComidaValor.TabIndex = 11;

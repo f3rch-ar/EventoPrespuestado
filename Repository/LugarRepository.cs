@@ -24,24 +24,26 @@ namespace EventoPresupuestado.Repository
         }
 
 
-        public override void Update(Lugar lugarModificado)
+        public override void Update(Lugar lugarModif)
         {
-            Lugar lugarExistente = listElementos.FirstOrDefault(x => x.Id == lugarModificado.Id);
+            //Lugar lugarExistente = listElementos.FirstOrDefault(x => x.Id == lugarModificado.Id);
+
+            Lugar lugarExistente = GetID(lugarModif.Id);
 
             if (lugarExistente == null)
             {
-                throw new KeyNotFoundException($"No se encontró ningún lugar/salón con el ID {lugarModificado.Id} para actualizar.");
+                throw new KeyNotFoundException($"No se encontró ningún lugar/salón con el ID {lugarModif.Id} para actualizar.");
             }
 
-            lugarExistente.NombreLugar = lugarModificado.NombreLugar;
-            lugarExistente.DescripcionLugar = lugarModificado.DescripcionLugar;
-            lugarExistente.PrecioBase = lugarModificado.PrecioBase;
-            lugarExistente.CantMaxPersonas = lugarModificado.CantMaxPersonas;
-            lugarExistente.Ocupado = lugarModificado.Ocupado;
+            lugarExistente.NombreLugar = lugarModif.NombreLugar;
+            lugarExistente.DescripcionLugar = lugarModif.DescripcionLugar;
+            lugarExistente.PrecioBase = lugarModif.PrecioBase;
+            lugarExistente.CantMaxPersonas = lugarModif.CantMaxPersonas;
+            lugarExistente.Ocupado = lugarModif.Ocupado;
 
-            if (lugarModificado.RutaImagen != null)
+            if (lugarModif.RutaImagen != null)
             {
-                lugarExistente.RutaImagen = lugarModificado.RutaImagen;
+                lugarExistente.RutaImagen = lugarModif.RutaImagen;
             }
         }
     }

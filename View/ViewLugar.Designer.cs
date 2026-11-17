@@ -41,7 +41,7 @@
             txtLugarNombre = new TextBox();
             lblLugarNombre = new Label();
             txtLugarDescripcion = new TextBox();
-            lblLugarComida = new Label();
+            lblLugarDescripcion = new Label();
             txtLugarPrecio = new TextBox();
             lblLugarPrecio = new Label();
             panelButtonsABM = new Panel();
@@ -121,7 +121,7 @@
             groupBoxLugar.Controls.Add(txtLugarNombre);
             groupBoxLugar.Controls.Add(lblLugarNombre);
             groupBoxLugar.Controls.Add(txtLugarDescripcion);
-            groupBoxLugar.Controls.Add(lblLugarComida);
+            groupBoxLugar.Controls.Add(lblLugarDescripcion);
             groupBoxLugar.Controls.Add(txtLugarPrecio);
             groupBoxLugar.Controls.Add(lblLugarPrecio);
             groupBoxLugar.Location = new Point(6, 8);
@@ -168,7 +168,7 @@
             lblLugarCantidadMax.AutoSize = true;
             lblLugarCantidadMax.Location = new Point(14, 231);
             lblLugarCantidadMax.Name = "lblLugarCantidadMax";
-            lblLugarCantidadMax.Size = new Size(114, 15);
+            lblLugarCantidadMax.Size = new Size(113, 15);
             lblLugarCantidadMax.TabIndex = 15;
             lblLugarCantidadMax.Text = "Cant. Max Personas:";
             // 
@@ -199,14 +199,14 @@
             txtLugarDescripcion.Size = new Size(157, 139);
             txtLugarDescripcion.TabIndex = 2;
             // 
-            // lblLugarComida
+            // lblLugarDescripcion
             // 
-            lblLugarComida.AutoSize = true;
-            lblLugarComida.Location = new Point(14, 67);
-            lblLugarComida.Name = "lblLugarComida";
-            lblLugarComida.Size = new Size(123, 15);
-            lblLugarComida.TabIndex = 10;
-            lblLugarComida.Text = "Descripcion del Salon:";
+            lblLugarDescripcion.AutoSize = true;
+            lblLugarDescripcion.Location = new Point(14, 67);
+            lblLugarDescripcion.Name = "lblLugarDescripcion";
+            lblLugarDescripcion.Size = new Size(123, 15);
+            lblLugarDescripcion.TabIndex = 10;
+            lblLugarDescripcion.Text = "Descripcion del Salon:";
             // 
             // txtLugarPrecio
             // 
@@ -304,7 +304,6 @@
         #endregion
 
         private Panel panelFill;
-        private DataGridView dgvListComida;
         private Panel panelAsideABM;
         private GroupBox groupBoxLugar;
         private TextBox txtLugarPrecio;
@@ -312,7 +311,7 @@
         private Button btnCreateLugar;
         private Label lblLugarPrecio;
         private TextBox txtLugarDescripcion;
-        private Label lblLugarComida;
+        private Label lblLugarDescripcion;
         private Button btnUpdateLugar;
         private Button btnDeleteLugar;
         private Button btnLimpiarTexts;

@@ -37,7 +37,7 @@ namespace EventoPresupuestado.Componentes
         {
             Tag = lugarDto ?? throw new ArgumentNullException(nameof(lugarDto));
 
-            lblId.Text = $"ID: #{LugarData.idLugar}";
+            lblId.Text = $"ID: #{LugarData.Id}";
             lblNombre.Text = LugarData.nombreLugar;
             lblDescription.Text = LugarData.descripcionLugar;
 
@@ -85,7 +85,7 @@ namespace EventoPresupuestado.Componentes
 
         private void ConfigurarBadgeEstado()
         {
-            if (!LugarData.activo)
+            if (!LugarData.Activo)
             {
                 lblBadgeState.Text = "INACTIVO";
                 lblBadgeState.BackColor = Color.FromArgb(241, 245, 249);
@@ -116,7 +116,7 @@ namespace EventoPresupuestado.Componentes
             }
             else
             {
-                pnlContainerAll.BackColor = LugarData != null && !LugarData.activo
+                pnlContainerAll.BackColor = LugarData != null && !LugarData.Activo
                     ? Color.FromArgb(248, 250, 252) // 253, 237, 237
                     : Color.White;
 

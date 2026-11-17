@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace EventoPresupuestado.Service
 {
-    public class LugarService
+    public class LugarService : BaseService
     {
         private readonly IRepository<Lugar> _lugarRepository;
 
@@ -21,10 +21,10 @@ namespace EventoPresupuestado.Service
 
         public void CreateLugar(LugarDto lugarDto)
         {
-            // 1. Procesar copia de la imagen seleccionada al directorio de la app (si se adjuntó una)
+            compareLugar(lugarDto);
+
             string? rutaFinalImagen = GuardarImagenLocalmente(lugarDto.rutaImagen);
 
-            // 2. Mapear DTO a Modelo de Dominio
             Lugar lugarModel = new Lugar(
                 lugarDto.nombreLugar,
                 lugarDto.descripcionLugar,
@@ -32,9 +32,36 @@ namespace EventoPresupuestado.Service
                 lugarDto.cantMaxPersonas,
                 rutaFinalImagen
             );
-
-            // 3. Persistir en el Repositorio
             _lugarRepository.Create(lugarModel);
+        }
+
+        private void compareLugar(LugarDto lugarDto)
+        {
+            List<LugarDto> lugaresExistentes = GetLugares();
+
+            string nombreNuevoNormalizado = NormalizarTexto(lugarDto.nombreLugar);
+            string descripcionNuevaNormalizada = NormalizarTexto(lugarDto.descripcionLugar);
+
+            foreach (LugarDto existente in lugaresExistentes)
+            {
+                string nombreExistenteNormalizado = NormalizarTexto(existente.nombreLugar);
+                string descripcionExistenteNormalizada = NormalizarTexto(existente.descripcionLugar);
+
+                bool mismoNombre = nombreExistenteNormalizado.Equals(nombreNuevoNormalizado);
+                bool mismaDescripcion = descripcionExistenteNormalizada.Equals(descripcionNuevaNormalizada);
+
+                if ((mismoNombre || mismaDescripcion) && existente.Id != lugarDto.Id)
+                {
+                    if (mismoNombre)
+                    {
+                        throw new ArgumentException("Ya existe un salón o lugar registrado con ese nombre en el sistema.");
+                    }
+                    else
+                    {
+                        throw new ArgumentException("Ya existe un salón o lugar registrado con esa descripción en el sistema.");
+                    }
+                }
+            }
         }
 
         public List<LugarDto> GetLugares()
@@ -69,7 +96,8 @@ namespace EventoPresupuestado.Service
 
         public void UpdateLugar(LugarDto lugarDto)
         {
-            // Si la ruta cambió a una ruta absoluta local (nueva foto elegida), la copiamos
+            compareLugar(lugarDto);
+
             string? rutaFinalImagen = lugarDto.rutaImagen;
             if (!string.IsNullOrWhiteSpace(lugarDto.rutaImagen) && File.Exists(lugarDto.rutaImagen) && Path.IsPathRooted(lugarDto.rutaImagen))
             {
@@ -77,7 +105,7 @@ namespace EventoPresupuestado.Service
             }
 
             Lugar lugarModel = new Lugar(
-                lugarDto.idLugar,
+                lugarDto.Id,
                 lugarDto.nombreLugar,
                 lugarDto.descripcionLugar,
                 lugarDto.precioBase,
@@ -110,7 +138,6 @@ namespace EventoPresupuestado.Service
 
             try
             {
-                // Carpeta destino dentro del entorno local de la aplicación
                 string carpetaImagenes = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ImagenesLugares");
 
                 if (!Directory.Exists(carpetaImagenes))
@@ -118,20 +145,16 @@ namespace EventoPresupuestado.Service
                     Directory.CreateDirectory(carpetaImagenes);
                 }
 
-                // Generar nombre de archivo único con GUID para evitar sobreescrituras
                 string extension = Path.GetExtension(rutaOrigen);
                 string nombreArchivoUnico = $"lugar_{Guid.NewGuid()}{extension}";
                 string rutaDestinoCompleta = Path.Combine(carpetaImagenes, nombreArchivoUnico);
 
-                // Copiar el archivo
                 File.Copy(rutaOrigen, rutaDestinoCompleta, overwrite: true);
 
-                // Retornar la ruta relativa para persistir en la BD
                 return Path.Combine("ImagenesLugares", nombreArchivoUnico);
             }
             catch
             {
-                // En caso de fallo de E/S, no bloqueamos la creación del registro y dejamos la ruta nula
                 return null;
             }
         }

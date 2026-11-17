@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EventoPresupuestado.Dto;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -58,6 +59,19 @@ namespace EventoPresupuestado.Util
             return true;
         }
 
+        public static bool validarSeleccionComponentesMenuUI(params object[] itemsComboBox)
+        {
+            foreach (object item in itemsComboBox)
+            {
+                if (item == null)
+                {
+                    MessageUser.mostrarAdvertencia("Debe seleccionar todos los componentes obligatorios del menú.");
+                    return false;
+                }
+            }
+            return true;
+        }
+
         public static bool validarPrecioUI(string textoPrecio, string nombreEntidad)
         {
             if (!isDecimalValido(textoPrecio))
@@ -66,6 +80,11 @@ namespace EventoPresupuestado.Util
                 return false;
             }
             return true;
+        }
+
+        public static void mostrarResultadoUI(ResultDto respuesta)
+        {
+            MessageUser.mostrarResultado(respuesta);
         }
 
         public static bool confirmarAccionUI(string accion, string nombreEntidad)

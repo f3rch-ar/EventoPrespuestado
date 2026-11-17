@@ -45,7 +45,7 @@ namespace EventoPresupuestado.View
             dgvListComida.Columns.Clear();
 
             DataGridViewTextBoxColumn colId = new DataGridViewTextBoxColumn();
-            colId.DataPropertyName = "idComida";
+            colId.DataPropertyName = "Id";
             colId.HeaderText = "ID Código";
             colId.FillWeight = 40;
             dgvListComida.Columns.Add(colId);
@@ -79,7 +79,6 @@ namespace EventoPresupuestado.View
         {
             dgvListComida.DataSource = null;
 
-            // Consultamos la sesión global para decidir si traemos inactivos o solo activos
             if (SesionActual.ShowInactivos)
             {
                 dgvListComida.DataSource = _comidaController.GetComidasNoActivas();
@@ -113,7 +112,7 @@ namespace EventoPresupuestado.View
                     btnCreateComida.Enabled = true;
                     btnCreateComida.Text = "Activar";
                     btnUpdateComida.Enabled = false;
-                    btnDeleteComida.Enabled = true;
+                    btnDeleteComida.Enabled = false;
                 }
             }
         }
@@ -134,6 +133,23 @@ namespace EventoPresupuestado.View
             txtComidaDescripcion.Focus();
 
             actualizarEstadosBotones(true);
+        }
+
+        private ComidaDto ObtenerDtoDesdePantalla(int id)
+        {
+            string descripcionComida = txtComidaDescripcion.Text.Trim();
+            EnumTipoCom estadoComida = (EnumTipoCom)cbxTipoComida.SelectedItem;
+            decimal valorComida = Convert.ToDecimal(txtComidaValor.Text.Trim());
+            bool estadoActivo = (dgvListComida.CurrentRow?.DataBoundItem is ComidaDto comidaActual) ? comidaActual.Activo : true;
+
+            if (id == 0)
+            {
+                return new ComidaDto(descripcionComida, estadoComida, valorComida);
+            }
+            else
+            {
+                return new ComidaDto(id, descripcionComida, estadoComida, valorComida, estadoActivo);
+            }
         }
 
         private void btnLimpiarDataGrid_Click(object sender, EventArgs e)
@@ -157,11 +173,7 @@ namespace EventoPresupuestado.View
             if (!ValidationViews.validarPrecioUI(txtComidaValor.Text, "comida")) return;
             if (!ValidationViews.confirmarAccionUI("crear", "comida")) return;
 
-            string descripcionComida = txtComidaDescripcion.Text.Trim();
-            EnumTipoCom estadoComida = (EnumTipoCom)cbxTipoComida.SelectedItem;
-            decimal valorComida = Convert.ToDecimal(txtComidaValor.Text);
-
-            ComidaDto comidaDto = new ComidaDto(descripcionComida, estadoComida, valorComida);
+            ComidaDto comidaDto = ObtenerDtoDesdePantalla(0);
             ResultDto respuesta = _comidaController.CreateComida(comidaDto);
 
             actualizarYLimpiarGrilla(respuesta);
@@ -174,11 +186,7 @@ namespace EventoPresupuestado.View
             if (!ValidationViews.validarPrecioUI(txtComidaValor.Text, "comida")) return;
             if (!ValidationViews.confirmarAccionUI("modificar", "comida")) return;
 
-            string descripcionComida = txtComidaDescripcion.Text.Trim();
-            EnumTipoCom estadoComida = (EnumTipoCom)cbxTipoComida.SelectedItem;
-            decimal valorComida = Convert.ToDecimal(txtComidaValor.Text);
-
-            ComidaDto comidaDto = new ComidaDto(_idSeleccionado, descripcionComida, estadoComida, valorComida);
+            ComidaDto comidaDto = ObtenerDtoDesdePantalla(_idSeleccionado);
             ResultDto respuesta = _comidaController.UpdateComida(comidaDto);
 
             actualizarYLimpiarGrilla(respuesta);
@@ -186,31 +194,18 @@ namespace EventoPresupuestado.View
 
         private void btnDeleteComida_Click(object sender, EventArgs e)
         {
-            if (!ValidationViews.validarSeleccionUI(_idSeleccionado, "gestionar la baja o eliminación de", "comida")) return;
+            if (!ValidationViews.validarSeleccionUI(_idSeleccionado, "dar de baja", "comida")) return;
+            if (!ValidationViews.confirmarAccionUI("dar de baja", "comida")) return;
 
-            ComidaDto comidaActual = dgvListComida.CurrentRow?.DataBoundItem as ComidaDto;
-
-            if (comidaActual != null && !comidaActual.activo)
-            {
-                if (!ValidationViews.confirmarAccionUI("eliminar definitivamente", "comida")) return;
-
-                ResultDto respuestaPermanente = _comidaController.DeleteComidaPermanente(_idSeleccionado);
-                actualizarYLimpiarGrilla(respuestaPermanente);
-            }
-            else
-            {
-                if (!ValidationViews.confirmarAccionUI("dar de baja", "comida")) return;
-
-                ResultDto respuestaBaja = _comidaController.DeleteComida(_idSeleccionado);
-                actualizarYLimpiarGrilla(respuestaBaja);
-            }
+            ResultDto respuestaBaja = _comidaController.DeleteComida(_idSeleccionado);
+            actualizarYLimpiarGrilla(respuestaBaja);
         }
 
         private void actualizarYLimpiarGrilla(ResultDto respuesta)
         {
-            MessageUser.mostrarResultado(respuesta);
+            ValidationViews.mostrarResultadoUI(respuesta);
 
-            if (respuesta.IsSuccess)
+            if (respuesta != null && respuesta.IsSuccess)
             {
                 actualizarGrilla();
                 limpiarCampos();
@@ -227,7 +222,7 @@ namespace EventoPresupuestado.View
 
                     if (comidaFila != null)
                     {
-                        if (!comidaFila.activo)
+                        if (!comidaFila.Activo)
                         {
                             Color rojoPastel = Color.FromArgb(253, 237, 237);
                             dgvListComida.Rows[e.RowIndex].DefaultCellStyle.BackColor = rojoPastel;
@@ -250,12 +245,12 @@ namespace EventoPresupuestado.View
 
                     if (comidaSeleccionada != null)
                     {
-                        _idSeleccionado = comidaSeleccionada.idComida;
+                        _idSeleccionado = comidaSeleccionada.Id; // Actualizado por herencia BaseDto
                         txtComidaDescripcion.Text = comidaSeleccionada.descripcionComida;
                         txtComidaValor.Text = comidaSeleccionada.valorComida.ToString();
                         cbxTipoComida.SelectedItem = comidaSeleccionada.estadoTipoCom;
 
-                        actualizarEstadosBotones(comidaSeleccionada.activo);
+                        actualizarEstadosBotones(comidaSeleccionada.Activo); // Actualizado por herencia BaseDto
                     }
                 }
             };

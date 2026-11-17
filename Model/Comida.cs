@@ -15,7 +15,7 @@ namespace EventoPresupuestado.Model
         private EnumTipoCom estadoComida;
         private decimal valorComida;
 
-// CONSTRUCTORES
+    // CONSTRUCTORES
 
         public Comida() { }
 

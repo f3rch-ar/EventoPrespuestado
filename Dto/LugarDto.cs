@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace EventoPresupuestado.Dto
 {
-    public class LugarDto
+    public class LugarDto : BaseDto
     {
-        public int idLugar { get; set; }
         public string nombreLugar { get; set; }
         public string descripcionLugar { get; set; }
         public decimal precioBase { get; set; }
@@ -16,7 +15,6 @@ namespace EventoPresupuestado.Dto
         public bool ocupado { get; set; } = false;
         public string rutaImagen { get; set; }
 
-        public bool activo { get; set; }
 
         public LugarDto() { }
 
@@ -29,19 +27,19 @@ namespace EventoPresupuestado.Dto
             cantMaxPersonas = cantMaxPers;
             rutaImagen = rutaImg;
             ocupado = false;
-            activo = true;
+            Activo = true;
         }
 
         public LugarDto(int id, string nombre, string descpLugar, decimal precio, int cantMaxPers, bool estaOcupado, string? rutaImg, bool estaActivo)
         {
-            idLugar = id;
+            Id = id;
             nombreLugar = nombre;
             descripcionLugar = descpLugar;
             precioBase = precio;
             cantMaxPersonas = cantMaxPers;
             ocupado = estaOcupado;
             rutaImagen = rutaImg;
-            activo = estaActivo;
+            Activo = estaActivo;
         }
     }
 }

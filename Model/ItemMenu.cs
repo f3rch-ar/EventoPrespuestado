@@ -6,34 +6,42 @@ using System.Threading.Tasks;
 
 namespace EventoPresupuestado.Model
 {
-    public class ItemMenu
+    public class ItemMenu : ModelBase
     {
-        private int idItemMenu;
         private int cant;
         private decimal precioUnitarioBaseAdulto;
         private TipoMenu menu;
         private bool isAdulto;
         private float descuentoInfantil;
 
-// CONSTRUCTORES
+        // CONSTRUCTORES
+        public ItemMenu()
+        {
+            Activo = true;
+        }
 
-        public ItemMenu() { }
-
-        public ItemMenu(int cant, TipoMenu menu)
+        public ItemMenu(int cant, TipoMenu menu, bool isAdulto, float descuentoInfantil)
         {
             Cantidad = cant;
             TipoDeMenu = menu;
             PrecioUnitarioBaseAdulto = menu.ValorTipoMenu;
-            IsAdulto = true;
-        }
-
-        public ItemMenu(int cant, TipoMenu menu, bool isAdulto) : this(cant, menu) // <- sobrecarga que ejecuta el constructor anterior
-        {
             IsAdulto = isAdulto;
+            DescuentoNino = descuentoInfantil;
+            Activo = true;
         }
 
-// METODOS
+        public ItemMenu(int idItemMenu, int cant, TipoMenu menu, bool isAdulto, float descuentoInfantil)
+        {
+            Id = idItemMenu;
+            Cantidad = cant;
+            TipoDeMenu = menu;
+            PrecioUnitarioBaseAdulto = menu.ValorTipoMenu;
+            IsAdulto = isAdulto;
+            DescuentoNino = descuentoInfantil;
+            Activo = true;
+        }
 
+        // METODOS
         public decimal CalcularSubtotal()
         {
             decimal precioUnitario;
@@ -42,7 +50,6 @@ namespace EventoPresupuestado.Model
             {
                 precioUnitario = PrecioUnitarioBaseAdulto;
             }
-
             else
             {
                 precioUnitario = PrecioUnitarioBaseAdulto * (decimal)(1 - DescuentoNino);
@@ -51,40 +58,38 @@ namespace EventoPresupuestado.Model
             return precioUnitario * Cantidad;
         }
 
-// PROPIEDADES
+        // PROPIEDADES
+        public int Cantidad
+        {
+            get { return cant; }
+            set
+            {
+                if (value <= 0)
+                {
+                    throw new ArgumentOutOfRangeException(nameof(value), "La cantidad no puede ser menor o igual a cero.");
+                }
+                cant = value;
+            }
+        }
 
         public TipoMenu TipoDeMenu
         {
             get { return menu; }
             set
             {
-                menu = value;
-            }
-        }
-
-        public int Cantidad
-        {
-            get { return cant; }
-
-            set
-            {
-                if (value <= 0)
+                if (value == null)
                 {
-                    throw new ArgumentException("La cantidad no puede ser menor a 0");
+                    throw new ArgumentNullException(nameof(value), "El tipo de menú no puede ser nulo.");
                 }
-
-                cant = value;
+                menu = value;
+                precioUnitarioBaseAdulto = value.ValorTipoMenu;
             }
         }
 
         public bool IsAdulto
         {
             get { return isAdulto; }
-
-            set
-            {
-                isAdulto = value;
-            }
+            set { isAdulto = value; }
         }
 
         public decimal PrecioUnitarioBaseAdulto
@@ -92,6 +97,10 @@ namespace EventoPresupuestado.Model
             get { return precioUnitarioBaseAdulto; }
             set
             {
+                if (value < 0)
+                {
+                    throw new ArgumentOutOfRangeException(nameof(value), "El precio unitario base no puede ser menor a cero.");
+                }
                 precioUnitarioBaseAdulto = value;
             }
         }
@@ -101,15 +110,11 @@ namespace EventoPresupuestado.Model
             get { return descuentoInfantil; }
             set
             {
-                if(value >= 0 && value <= 100)
+                if (value < 0 || value > 1)
                 {
-                    descuentoInfantil = value;
+                    throw new ArgumentOutOfRangeException(nameof(value), "El descuento infantil debe ser un valor entre 0 y 1 (ej: 0.15 para 15%).");
                 }
-                else
-                {
-                    //throw Exception();
-                }
-                
+                descuentoInfantil = value;
             }
         }
     }

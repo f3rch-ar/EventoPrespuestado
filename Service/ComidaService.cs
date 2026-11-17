@@ -1,5 +1,6 @@
 ﻿using EventoPresupuestado.Dto;
 using EventoPresupuestado.Model;
+using EventoPresupuestado.Model.Enums;
 using EventoPresupuestado.Repository;
 using EventoPresupuestado.Repository.Interfaces;
 using System;
@@ -10,9 +11,8 @@ using System.Threading.Tasks;
 
 namespace EventoPresupuestado.Service
 {
-    public class ComidaService
+    public class ComidaService : BaseService
     {
-
         private readonly IRepository<Comida> _comidaRepository;
 
         public ComidaService()
@@ -20,30 +20,73 @@ namespace EventoPresupuestado.Service
             _comidaRepository = ComidaRepository.getInstance();
         }
 
-        public void CreateComida(ComidaDto comida)
+        public void CreateComida(ComidaDto comidaDto)
         {
-            Comida comidaModel = new Comida(comida.idComida, comida.descripcionComida, comida.estadoTipoCom, comida.valorComida);
+            compareComida(comidaDto);
+
+            Comida comidaModel = new Comida(
+                comidaDto.descripcionComida,
+                comidaDto.estadoTipoCom,
+                comidaDto.valorComida
+            );
+
             _comidaRepository.Create(comidaModel);
+        }
+
+        private void compareComida(ComidaDto comida)
+        {
+            List<ComidaDto> comidasExistentes = GetComidas();
+
+            string descripcionNuevaNormalizada = NormalizarTexto(comida.descripcionComida);
+
+            foreach (ComidaDto existente in comidasExistentes)
+            {
+                string descripcionExistenteNormalizada = NormalizarTexto(existente.descripcionComida);
+
+                if (descripcionExistenteNormalizada.Equals(descripcionNuevaNormalizada) && existente.Id != comida.Id)
+                {
+                    throw new ArgumentException("Ya existe una comida con esa descripción registrada en el sistema.");
+                }
+            }
         }
 
         public List<ComidaDto> GetComidas()
         {
-            //return _comidaRepository.GetAlls();
-
             return _comidaRepository.GetAlls()
-                .Select(getComida => new ComidaDto(getComida.Id, getComida.DescripcionComida, getComida.TipoDeComida, getComida.ValorComida, getComida.Activo)).ToList();
+                .Select(getComida => new ComidaDto(
+                    getComida.Id,
+                    getComida.DescripcionComida,
+                    getComida.TipoDeComida,
+                    getComida.ValorComida,
+                    getComida.Activo
+                )).ToList();
         }
 
         public List<ComidaDto> GetComidasNoActivas()
         {
-            //return _comidaRepository.GetAlls_NoActivos();
             return _comidaRepository.GetAlls_NoActivos()
-                .Select(getComida => new ComidaDto(getComida.Id, getComida.DescripcionComida, getComida.TipoDeComida, getComida.ValorComida, getComida.Activo)).ToList();
+                .Select(getComida => new ComidaDto(
+                    getComida.Id,
+                    getComida.DescripcionComida,
+                    getComida.TipoDeComida,
+                    getComida.ValorComida,
+                    getComida.Activo
+                )).ToList();
         }
 
         public void UpdateComida(ComidaDto comidaDto)
         {
-            Comida comidaModel = new Comida(comidaDto.idComida, comidaDto.descripcionComida, comidaDto.estadoTipoCom, comidaDto.valorComida);
+            compareComida(comidaDto);
+
+            Comida comidaModel = new Comida(
+                comidaDto.Id,
+                comidaDto.descripcionComida,
+                comidaDto.estadoTipoCom,
+                comidaDto.valorComida
+            );
+
+            comidaModel.Activo = comidaDto.Activo;
+
             _comidaRepository.Update(comidaModel);
         }
 
@@ -62,5 +105,11 @@ namespace EventoPresupuestado.Service
             _comidaRepository.DeletePermanent(id);
         }
 
+        public List<ComidaDto> GetComidasPorCategoria(EnumTipoCom tipoComida)
+        {
+            return GetComidas()
+                .Where(com => com.estadoTipoCom == tipoComida)
+                .ToList();
+        }
     }
 }

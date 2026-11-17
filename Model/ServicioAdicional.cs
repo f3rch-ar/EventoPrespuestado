@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace EventoPresupuestado.Model
 {
-    public class ServicioAdicional
+    public class ServicioAdicional : ModelBase
     {
-        private int idServicio;
+        private string nombreServicio;
         private string descripcion;
         private decimal valorServicio;
 
@@ -16,15 +16,17 @@ namespace EventoPresupuestado.Model
 
         public ServicioAdicional() { }
 
-        public ServicioAdicional(string descp, decimal valorServ)
+        public ServicioAdicional(string nombreServ, string descp, decimal valorServ)
         {
+            NombreServicio = nombreServ;
             Descripcion = descp;
             ValorServicio = valorServ;
         }
 
-        public ServicioAdicional(int idServ, string descp, decimal valorServ)
+        public ServicioAdicional(int idServ, string nombreServ, string descp, decimal valorServ)
         {
-            IdServicio = idServ;
+            Id = idServ;
+            NombreServicio = nombreServ;
             Descripcion = descp;
             ValorServicio = valorServ;
         }
@@ -33,15 +35,17 @@ namespace EventoPresupuestado.Model
 
         // PROPIEDADES
 
-        public int IdServicio
+
+        public string NombreServicio
         {
-            get { return idServicio; }
+            get { return nombreServicio; }
             set
             {
-                if (value > 0)
+                if (string.IsNullOrEmpty(value))
                 {
-                    idServicio = value;
+                    throw new ArgumentException(nameof(value), "El nombre no debe estar vacia");
                 }
+                nombreServicio = value;
             }
         }
 

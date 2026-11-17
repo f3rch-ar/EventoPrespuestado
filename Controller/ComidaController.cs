@@ -29,9 +29,9 @@ namespace EventoPresupuestado.Controller
             {
                 return ResultDto.Warning(ex.Message);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return ResultDto.Fatal("No se pudo agregar la comida debido a un error del sistema: " + ex.Message);
+                return ResultDto.Fatal("Ocurrió un error inesperado al intentar registrar la comida. Intente nuevamente.");
             }
         }
 
@@ -56,13 +56,13 @@ namespace EventoPresupuestado.Controller
             {
                 return ResultDto.Warning(ex.Message);
             }
-            catch (KeyNotFoundException ex)
+            catch (KeyNotFoundException)
             {
-                return ResultDto.Warning(ex.Message);
+                return ResultDto.Warning("No se encontró el registro de la comida que intenta modificar.");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return ResultDto.Fatal("No se pudo modificar la comida debido a un error del sistema: " + ex.Message);
+                return ResultDto.Fatal("Ocurrió un error inesperado al intentar actualizar la comida.");
             }
         }
 
@@ -73,13 +73,13 @@ namespace EventoPresupuestado.Controller
                 _comidaService.DeleteComida(id);
                 return ResultDto.Success("La comida fue dada de baja correctamente.");
             }
-            catch (KeyNotFoundException ex)
+            catch (KeyNotFoundException)
             {
-                return ResultDto.Warning(ex.Message);
+                return ResultDto.Warning("No se encontró el registro de la comida que desea dar de baja.");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return ResultDto.Fatal("No se pudo eliminar la comida debido a un error del sistema: " + ex.Message);
+                return ResultDto.Fatal("Ocurrió un error inesperado al intentar dar de baja la comida.");
             }
         }
 
@@ -90,13 +90,13 @@ namespace EventoPresupuestado.Controller
                 _comidaService.ReactivateComida(id);
                 return ResultDto.Success("La comida ha sido reactivada con éxito.");
             }
-            catch (KeyNotFoundException ex)
+            catch (KeyNotFoundException)
             {
-                return ResultDto.Warning(ex.Message);
+                return ResultDto.Warning("No se encontró el registro de la comida que desea reactivar.");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return ResultDto.Fatal("No se pudo reactivar la comida debido a un error del sistema: " + ex.Message);
+                return ResultDto.Fatal("Ocurrió un error inesperado al intentar reactivar la comida.");
             }
         }
 
@@ -107,13 +107,13 @@ namespace EventoPresupuestado.Controller
                 _comidaService.DeleteComidaPermanente(id);
                 return ResultDto.Success("La comida fue eliminada definitivamente del sistema.");
             }
-            catch (KeyNotFoundException ex)
+            catch (KeyNotFoundException)
             {
-                return ResultDto.Warning(ex.Message);
+                return ResultDto.Warning("No se encontró el registro de la comida que intenta eliminar de forma definitiva.");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return ResultDto.Fatal("No se pudo eliminar definitivamente la comida debido a un error del sistema: " + ex.Message);
+                return ResultDto.Fatal("Ocurrió un error inesperado al intentar realizar la eliminación permanente.");
             }
         }
     }

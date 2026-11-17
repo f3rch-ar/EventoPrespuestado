@@ -15,6 +15,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Update="View\ViewTipoMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\ViewServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="View\ViewLugar.cs">
       <SubType>Form</SubType>
     </Compile>

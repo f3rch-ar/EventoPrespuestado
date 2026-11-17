@@ -28,9 +28,9 @@ namespace EventoPresupuestado.Controller
             {
                 return ResultDto.Warning(ex.Message);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return ResultDto.Fatal("No se pudo agregar el salón debido a un error del sistema: " + ex.Message);
+                return ResultDto.Fatal("Ocurrió un error inesperado al intentar registrar el salón. Intente nuevamente.");
             }
         }
 
@@ -55,13 +55,13 @@ namespace EventoPresupuestado.Controller
             {
                 return ResultDto.Warning(ex.Message);
             }
-            catch (KeyNotFoundException ex)
+            catch (KeyNotFoundException)
             {
-                return ResultDto.Warning(ex.Message);
+                return ResultDto.Warning("No se encontró el registro del salón que intenta modificar.");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return ResultDto.Fatal("No se pudo modificar el salón debido a un error del sistema: " + ex.Message);
+                return ResultDto.Fatal("Ocurrió un error inesperado al intentar actualizar el salón.");
             }
         }
 
@@ -72,13 +72,13 @@ namespace EventoPresupuestado.Controller
                 _lugarService.DeleteLugar(id);
                 return ResultDto.Success("El salón/lugar fue dado de baja correctamente.");
             }
-            catch (KeyNotFoundException ex)
+            catch (KeyNotFoundException)
             {
-                return ResultDto.Warning(ex.Message);
+                return ResultDto.Warning("No se encontró el registro del salón que desea dar de baja.");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return ResultDto.Fatal("No se pudo eliminar el salón debido a un error del sistema: " + ex.Message);
+                return ResultDto.Fatal("Ocurrió un error inesperado al intentar dar de baja el salón.");
             }
         }
 
@@ -89,13 +89,13 @@ namespace EventoPresupuestado.Controller
                 _lugarService.ReactivateLugar(id);
                 return ResultDto.Success("El salón/lugar ha sido reactivado con éxito.");
             }
-            catch (KeyNotFoundException ex)
+            catch (KeyNotFoundException)
             {
-                return ResultDto.Warning(ex.Message);
+                return ResultDto.Warning("No se encontró el registro del salón que desea reactivar.");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return ResultDto.Fatal("No se pudo reactivar el salón debido a un error del sistema: " + ex.Message);
+                return ResultDto.Fatal("Ocurrió un error inesperado al intentar reactivar el salón.");
             }
         }
 
@@ -106,13 +106,13 @@ namespace EventoPresupuestado.Controller
                 _lugarService.DeleteLugarPermanente(id);
                 return ResultDto.Success("El salón/lugar fue eliminado definitivamente del sistema.");
             }
-            catch (KeyNotFoundException ex)
+            catch (KeyNotFoundException)
             {
-                return ResultDto.Warning(ex.Message);
+                return ResultDto.Warning("No se encontró el registro del salón que intenta eliminar de forma definitiva.");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return ResultDto.Fatal("No se pudo eliminar definitivamente el salón debido a un error del sistema: " + ex.Message);
+                return ResultDto.Fatal("Ocurrió un error inesperado al intentar realizar la eliminación permanente del salón.");
             }
         }
     }

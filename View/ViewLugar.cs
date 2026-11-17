@@ -87,14 +87,14 @@ namespace EventoPresupuestado.View
 
             LugarDto lugarSeleccionado = _cardSeleccionada.LugarData;
 
-            _idSeleccionado = lugarSeleccionado.idLugar;
+            _idSeleccionado = lugarSeleccionado.Id;
             txtLugarNombre.Text = lugarSeleccionado.nombreLugar;
             txtLugarDescripcion.Text = lugarSeleccionado.descripcionLugar;
             txtLugarCantidadMax.Text = lugarSeleccionado.cantMaxPersonas.ToString();
             txtLugarPrecio.Text = lugarSeleccionado.precioBase.ToString();
             _rutaImagenTemp = lugarSeleccionado.rutaImagen;
 
-            ActualizarEstadosBotones(lugarSeleccionado.activo);
+            ActualizarEstadosBotones(lugarSeleccionado.Activo);
         }
 
         private void LimpiarSeleccionVisualCards()
@@ -132,7 +132,7 @@ namespace EventoPresupuestado.View
                     btnCreateLugar.Enabled = true;
                     btnCreateLugar.Text = "Activar";
                     btnUpdateLugar.Enabled = false;
-                    btnDeleteLugar.Enabled = true;
+                    btnDeleteLugar.Enabled = false;
                 }
             }
         }
@@ -225,7 +225,7 @@ namespace EventoPresupuestado.View
             decimal precioBase = Convert.ToDecimal(txtLugarPrecio.Text.Trim());
 
             bool estaOcupado = _cardSeleccionada?.LugarData.ocupado ?? false;
-            bool estaActivo = _cardSeleccionada?.LugarData.activo ?? true;
+            bool estaActivo = _cardSeleccionada?.LugarData.Activo ?? true;
 
             LugarDto lugarDto = new LugarDto(_idSeleccionado, nombreLugar, descripcionLugar, precioBase, cantMax, estaOcupado, _rutaImagenTemp, estaActivo);
             ResultDto respuesta = _lugarController.UpdateLugar(lugarDto);
@@ -237,6 +237,12 @@ namespace EventoPresupuestado.View
         {
             if (!ValidationViews.validarSeleccionUI(_idSeleccionado, "gestionar la baja o eliminación de", "lugar/salón")) return;
 
+            if (!ValidationViews.confirmarAccionUI("dar de baja", "lugar/salón")) return;
+
+            ResultDto respuestaBaja = _lugarController.DeleteLugar(_idSeleccionado);
+            ActualizarYLimpiarVista(respuestaBaja);
+
+            /* Dar de baja permanentemente block
             LugarDto? lugarActual = _cardSeleccionada?.LugarData;
 
             if (lugarActual != null && !lugarActual.activo)
@@ -252,7 +258,7 @@ namespace EventoPresupuestado.View
 
                 ResultDto respuestaBaja = _lugarController.DeleteLugar(_idSeleccionado);
                 ActualizarYLimpiarVista(respuestaBaja);
-            }
+            }*/
         }
 
         private void ActualizarYLimpiarVista(ResultDto respuesta)

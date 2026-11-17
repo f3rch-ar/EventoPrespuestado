@@ -39,6 +39,7 @@
             panelMainView = new Panel();
             panelLineSeparator = new Panel();
             panelSideMenu = new Panel();
+            btnConfig = new Button();
             btnServAdicional = new Button();
             btnLugar = new Button();
             btnComida = new Button();
@@ -46,7 +47,6 @@
             btnPresupuesto = new Button();
             btnInicio = new Button();
             lineShadowSup = new LineShadow();
-            btnConfig = new Button();
             panelSuperior.SuspendLayout();
             panelSuperiorFillMidSearch.SuspendLayout();
             panelSuperiorSideMenuBurger.SuspendLayout();
@@ -180,6 +180,26 @@
             panelSideMenu.Size = new Size(175, 450);
             panelSideMenu.TabIndex = 8;
             // 
+            // btnConfig
+            // 
+            btnConfig.BackgroundImageLayout = ImageLayout.None;
+            btnConfig.Dock = DockStyle.Bottom;
+            btnConfig.FlatAppearance.BorderSize = 0;
+            btnConfig.FlatAppearance.MouseDownBackColor = Color.FromArgb(59, 131, 241);
+            btnConfig.FlatStyle = FlatStyle.Flat;
+            btnConfig.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnConfig.ForeColor = SystemColors.ControlText;
+            btnConfig.Image = Restaurante_Menus.Properties.Resources.config_24px;
+            btnConfig.Location = new Point(0, 420);
+            btnConfig.Name = "btnConfig";
+            btnConfig.Padding = new Padding(5, 0, 0, 0);
+            btnConfig.Size = new Size(175, 30);
+            btnConfig.TabIndex = 13;
+            btnConfig.Text = "Configuracion";
+            btnConfig.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnConfig.UseVisualStyleBackColor = true;
+            btnConfig.Click += btnConfig_Click;
+            // 
             // btnServAdicional
             // 
             btnServAdicional.BackgroundImageLayout = ImageLayout.None;
@@ -198,6 +218,7 @@
             btnServAdicional.Text = "Otro Servicio";
             btnServAdicional.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnServAdicional.UseVisualStyleBackColor = true;
+            btnServAdicional.Click += btnServAdicional_Click;
             // 
             // btnLugar
             // 
@@ -309,26 +330,6 @@
             lineShadowSup.Orientacion = LineShadow.DireccionSombra.Abajo;
             lineShadowSup.Size = new Size(1209, 5);
             lineShadowSup.TabIndex = 7;
-            // 
-            // btnConfig
-            // 
-            btnConfig.BackgroundImageLayout = ImageLayout.None;
-            btnConfig.Dock = DockStyle.Bottom;
-            btnConfig.FlatAppearance.BorderSize = 0;
-            btnConfig.FlatAppearance.MouseDownBackColor = Color.FromArgb(59, 131, 241);
-            btnConfig.FlatStyle = FlatStyle.Flat;
-            btnConfig.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            btnConfig.ForeColor = SystemColors.ControlText;
-            btnConfig.Image = Restaurante_Menus.Properties.Resources.config_24px;
-            btnConfig.Location = new Point(0, 420);
-            btnConfig.Name = "btnConfig";
-            btnConfig.Padding = new Padding(5, 0, 0, 0);
-            btnConfig.Size = new Size(175, 30);
-            btnConfig.TabIndex = 13;
-            btnConfig.Text = "Configuracion";
-            btnConfig.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnConfig.UseVisualStyleBackColor = true;
-            btnConfig.Click += btnConfig_Click;
             // 
             // AppMain
             // 
